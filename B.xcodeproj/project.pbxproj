@@ -10,6 +10,8 @@
 		DB51F49B1D03D81B0087EB77 /* B.h in Headers */ = {isa = PBXBuildFile; fileRef = DB51F49A1D03D81B0087EB77 /* B.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB51F4A21D03D81B0087EB77 /* B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB51F4971D03D81B0087EB77 /* B.framework */; };
 		DB51F4A71D03D81B0087EB77 /* BTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4A61D03D81B0087EB77 /* BTests.m */; };
+		DB51F4B31D03D8330087EB77 /* BB.h in Headers */ = {isa = PBXBuildFile; fileRef = DB51F4B11D03D8330087EB77 /* BB.h */; };
+		DB51F4B41D03D8330087EB77 /* BB.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4B21D03D8330087EB77 /* BB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		DB51F4A11D03D81B0087EB77 /* BTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB51F4A61D03D81B0087EB77 /* BTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTests.m; sourceTree = "<group>"; };
 		DB51F4A81D03D81B0087EB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB51F4B11D03D8330087EB77 /* BB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BB.h; sourceTree = "<group>"; };
+		DB51F4B21D03D8330087EB77 /* BB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				DB51F49A1D03D81B0087EB77 /* B.h */,
+				DB51F4B11D03D8330087EB77 /* BB.h */,
+				DB51F4B21D03D8330087EB77 /* BB.m */,
 				DB51F49C1D03D81B0087EB77 /* Info.plist */,
 			);
 			path = B;
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB51F4B31D03D8330087EB77 /* BB.h in Headers */,
 				DB51F49B1D03D81B0087EB77 /* B.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB51F4B41D03D8330087EB77 /* BB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
