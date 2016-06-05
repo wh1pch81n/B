@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@import A;
 
-@interface BB : UIViewController
+@interface BB : AA
 
 @end
