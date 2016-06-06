@@ -12,7 +12,7 @@
 		DB51F4A71D03D81B0087EB77 /* BTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4A61D03D81B0087EB77 /* BTests.m */; };
 		DB51F4B31D03D8330087EB77 /* BB.h in Headers */ = {isa = PBXBuildFile; fileRef = DB51F4B11D03D8330087EB77 /* BB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB51F4B41D03D8330087EB77 /* BB.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4B21D03D8330087EB77 /* BB.m */; };
-		DB51F4FF1D03DBCB0087EB77 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB51F4FC1D03DBBB0087EB77 /* A.framework */; };
+		DBAAA0021D05B0B70051457B /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAAA0011D05B0B70051457B /* A.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,20 +22,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = DB51F4961D03D81B0087EB77;
 			remoteInfo = B;
-		};
-		DB51F4FB1D03DBBB0087EB77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB51F4F61D03DBBB0087EB77 /* A.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DB824B5D1D03CF8E0072DFC8;
-			remoteInfo = A;
-		};
-		DB51F4FD1D03DBBB0087EB77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB51F4F61D03DBBB0087EB77 /* A.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DB824B671D03CF8F0072DFC8;
-			remoteInfo = ATests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -48,7 +34,7 @@
 		DB51F4A81D03D81B0087EB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB51F4B11D03D8330087EB77 /* BB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BB.h; sourceTree = "<group>"; };
 		DB51F4B21D03D8330087EB77 /* BB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BB.m; sourceTree = "<group>"; };
-		DB51F4F61D03DBBB0087EB77 /* A.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = A.xcodeproj; path = A/A.xcodeproj; sourceTree = "<group>"; };
+		DBAAA0011D05B0B70051457B /* A.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = A.framework; path = "../A/build/Debug-iphoneos/A.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB51F4FF1D03DBCB0087EB77 /* A.framework in Frameworks */,
+				DBAAA0021D05B0B70051457B /* A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +60,7 @@
 		DB51F48D1D03D81B0087EB77 = {
 			isa = PBXGroup;
 			children = (
+				DBAAA0011D05B0B70051457B /* A.framework */,
 				DB51F4F51D03DAD60087EB77 /* Dependency */,
 				DB51F4991D03D81B0087EB77 /* B */,
 				DB51F4A51D03D81B0087EB77 /* BTests */,
@@ -113,18 +100,8 @@
 		DB51F4F51D03DAD60087EB77 /* Dependency */ = {
 			isa = PBXGroup;
 			children = (
-				DB51F4F61D03DBBB0087EB77 /* A.xcodeproj */,
 			);
 			name = Dependency;
-			sourceTree = "<group>";
-		};
-		DB51F4F71D03DBBB0087EB77 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DB51F4FC1D03DBBB0087EB77 /* A.framework */,
-				DB51F4FE1D03DBBB0087EB77 /* ATests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,12 +182,6 @@
 			mainGroup = DB51F48D1D03D81B0087EB77;
 			productRefGroup = DB51F4981D03D81B0087EB77 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = DB51F4F71D03DBBB0087EB77 /* Products */;
-					ProjectRef = DB51F4F61D03DBBB0087EB77 /* A.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				DB51F4961D03D81B0087EB77 /* B */,
@@ -218,23 +189,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		DB51F4FC1D03DBBB0087EB77 /* A.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = A.framework;
-			remoteRef = DB51F4FB1D03DBBB0087EB77 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DB51F4FE1D03DBBB0087EB77 /* ATests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ATests.xctest;
-			remoteRef = DB51F4FD1D03DBBB0087EB77 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DB51F4951D03D81B0087EB77 /* Resources */ = {
