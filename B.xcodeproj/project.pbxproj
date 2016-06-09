@@ -35,6 +35,10 @@
 		DB51F4A81D03D81B0087EB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB51F4B11D03D8330087EB77 /* BB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BB.h; sourceTree = "<group>"; };
 		DB51F4B21D03D8330087EB77 /* BB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BB.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		DBAAA0011D05B0B70051457B /* A.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = A.framework; path = "../A/build/Debug-iphoneos/A.framework"; sourceTree = "<group>"; };
+>>>>>>> 8d599903975c2db96c4790baf7cb5d9d81cc3f23
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +46,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				2F2634CB1D04C43A00D31C13 /* A.framework in Frameworks */,
+=======
+				DBAAA0021D05B0B70051457B /* A.framework in Frameworks */,
+>>>>>>> 8d599903975c2db96c4790baf7cb5d9d81cc3f23
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +68,7 @@
 		DB51F48D1D03D81B0087EB77 = {
 			isa = PBXGroup;
 			children = (
+				DBAAA0011D05B0B70051457B /* A.framework */,
 				DB51F4F51D03DAD60087EB77 /* Dependency */,
 				DB51F4991D03D81B0087EB77 /* B */,
 				DB51F4A51D03D81B0087EB77 /* BTests */,
@@ -99,7 +108,10 @@
 		DB51F4F51D03DAD60087EB77 /* Dependency */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				2F2634CA1D04C43A00D31C13 /* A.framework */,
+=======
+>>>>>>> 8d599903975c2db96c4790baf7cb5d9d81cc3f23
 			);
 			name = Dependency;
 			sourceTree = "<group>";
