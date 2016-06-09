@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2634CB1D04C43A00D31C13 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2634CA1D04C43A00D31C13 /* A.framework */; };
 		DB51F49B1D03D81B0087EB77 /* B.h in Headers */ = {isa = PBXBuildFile; fileRef = DB51F49A1D03D81B0087EB77 /* B.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB51F4A21D03D81B0087EB77 /* B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB51F4971D03D81B0087EB77 /* B.framework */; };
 		DB51F4A71D03D81B0087EB77 /* BTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4A61D03D81B0087EB77 /* BTests.m */; };
 		DB51F4B31D03D8330087EB77 /* BB.h in Headers */ = {isa = PBXBuildFile; fileRef = DB51F4B11D03D8330087EB77 /* BB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB51F4B41D03D8330087EB77 /* BB.m in Sources */ = {isa = PBXBuildFile; fileRef = DB51F4B21D03D8330087EB77 /* BB.m */; };
-		DB51F4FF1D03DBCB0087EB77 /* A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB51F4FC1D03DBBB0087EB77 /* A.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,23 +23,10 @@
 			remoteGlobalIDString = DB51F4961D03D81B0087EB77;
 			remoteInfo = B;
 		};
-		DB51F4FB1D03DBBB0087EB77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB51F4F61D03DBBB0087EB77 /* A.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DB824B5D1D03CF8E0072DFC8;
-			remoteInfo = A;
-		};
-		DB51F4FD1D03DBBB0087EB77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DB51F4F61D03DBBB0087EB77 /* A.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DB824B671D03CF8F0072DFC8;
-			remoteInfo = ATests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F2634CA1D04C43A00D31C13 /* A.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = A.framework; path = "../../../Library/Developer/Xcode/DerivedData/B-fifyiogaslkoywabiirbcgfdnbfz/Build/Products/Debug-iphonesimulator/A.framework"; sourceTree = "<group>"; };
 		DB51F4971D03D81B0087EB77 /* B.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = B.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB51F49A1D03D81B0087EB77 /* B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = B.h; sourceTree = "<group>"; };
 		DB51F49C1D03D81B0087EB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +35,6 @@
 		DB51F4A81D03D81B0087EB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB51F4B11D03D8330087EB77 /* BB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BB.h; sourceTree = "<group>"; };
 		DB51F4B21D03D8330087EB77 /* BB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BB.m; sourceTree = "<group>"; };
-		DB51F4F61D03DBBB0087EB77 /* A.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = A.xcodeproj; path = A/A.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB51F4FF1D03DBCB0087EB77 /* A.framework in Frameworks */,
+				2F2634CB1D04C43A00D31C13 /* A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,18 +99,9 @@
 		DB51F4F51D03DAD60087EB77 /* Dependency */ = {
 			isa = PBXGroup;
 			children = (
-				DB51F4F61D03DBBB0087EB77 /* A.xcodeproj */,
+				2F2634CA1D04C43A00D31C13 /* A.framework */,
 			);
 			name = Dependency;
-			sourceTree = "<group>";
-		};
-		DB51F4F71D03DBBB0087EB77 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DB51F4FC1D03DBBB0087EB77 /* A.framework */,
-				DB51F4FE1D03DBBB0087EB77 /* ATests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,12 +182,6 @@
 			mainGroup = DB51F48D1D03D81B0087EB77;
 			productRefGroup = DB51F4981D03D81B0087EB77 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = DB51F4F71D03DBBB0087EB77 /* Products */;
-					ProjectRef = DB51F4F61D03DBBB0087EB77 /* A.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				DB51F4961D03D81B0087EB77 /* B */,
@@ -218,23 +189,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		DB51F4FC1D03DBBB0087EB77 /* A.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = A.framework;
-			remoteRef = DB51F4FB1D03DBBB0087EB77 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		DB51F4FE1D03DBBB0087EB77 /* ATests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ATests.xctest;
-			remoteRef = DB51F4FD1D03DBBB0087EB77 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DB51F4951D03D81B0087EB77 /* Resources */ = {
@@ -378,6 +332,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/A/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = B/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -394,6 +352,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/A/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = B/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

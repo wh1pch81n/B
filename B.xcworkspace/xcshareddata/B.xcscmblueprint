@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CDBBB383BC807B09FFADCF2C8D287CC368E50B32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FBBA4C060B3999CBDF218A71DDE7432B9CC30C33" : 0,
+    "CDBBB383BC807B09FFADCF2C8D287CC368E50B32" : 0,
+    "FCC47B8A8451A32A58203118CCDF20966BEFBCC9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CC3D5A43-0A8A-4FBF-804D-4408751F60F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FBBA4C060B3999CBDF218A71DDE7432B9CC30C33" : "",
+    "CDBBB383BC807B09FFADCF2C8D287CC368E50B32" : "B\/",
+    "FCC47B8A8451A32A58203118CCDF20966BEFBCC9" : "B\/A\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "B",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "B.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/B.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CDBBB383BC807B09FFADCF2C8D287CC368E50B32"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/www.github.com\/wh1pch81n\/See.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FBBA4C060B3999CBDF218A71DDE7432B9CC30C33"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wh1pch81n\/A.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FCC47B8A8451A32A58203118CCDF20966BEFBCC9"
+    }
+  ]
+}
