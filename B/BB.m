@@ -10,4 +10,9 @@
 
 @implementation BB
 
+- (void)thisIsASwiftMethod {
+	[super thisIsASwiftMethod];
+	NSLog(@"overriding swift method");
+}
+
 @end

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <A/A.h>
+//#import <A/A.h>
+@import A;
 
 @interface BB : AA
 
